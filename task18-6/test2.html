@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.example1 {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
+    border-radius: 50px;
+    opacity: 0.5;
+    
+}
+
+p.example2 {
+    background: rgba(49, 255, 125, 0.1);
+    
+}
+
+ 
+.img1 {
+    opacity: 1.0; 
+  }
+
+  .img1:hover {
+    opacity: 0.5;
+  }
+  
+.img2 
+  {
+    opacity: 0.5; 
+  }
+
+  .img2:hover {
+    opacity: 1;
+  }
+
+div {
+    border: 1px solid black;
+    margin: 10px 20px 30px 40px;
+    background-color: slateblue;
+  }
+</style></head>
+
+<body>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+<p class="example1" style="width: 25%;">Try it your self</p>
+<p class="example2" style="width: 25%;">Try it your self</p>
+
+<img src="horse.jpg" style="opacity: 0.2;" width="300" alt="">
+<img src="horse.jpg" style="opacity: 0.5;" width="300" alt="">
+<img src="horse.jpg" style="opacity: 1;" width="300" alt="">
+
+<br>
+
+<img src="horse.jpg" class="img1" width="300" alt="">
+<img src="horse.jpg" class="img2" width="300" alt="">
+
+<div>Try it yourself</div>
+
+</body>
+</html>
