@@ -1,0 +1,30 @@
+*{ box-sizing: border-box;
+}
+body {
+    margin: 10px 200px;
+}
+.video {
+    background-color: antiquewhite;
+    padding: 0  10%;
+}
+.first { background-color: black;
+display: inline-block;
+width: 60px;
+height: 60px;}
+.header { height: 70px;
+border: 1px solid black;
+display: flex; }
+.head1 { width: 6%;}
+.head2 { width: 54%;}
+.head3 { width: 38%;}
+#we { font-size: larger;
+    font-family: 'Pacifico', cursive;}
+
+    #are { color:#aaa ;
+        font-family: 'Lexend Peta', sans-serif;}
+i { padding: 28px 18px;}
+.ok { background-color: black;
+}
+#list { display: flex;
+height: 55px ;}
+
